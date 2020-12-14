@@ -7,6 +7,7 @@ extern void test_reverse_words_in_a_string(void);
 extern void test_push_to_stack_and_pop(void);
 extern void test_enque_and_deque(void);
 extern void test_enque_and_deque_from_head_and_tail(void);
+extern void test_try_insert_and_remove(void);
 
 void setUp(void){}
 void tearDown(void){}
@@ -17,5 +18,6 @@ int main(void) {
     RUN_TEST(test_push_to_stack_and_pop, 27);
     RUN_TEST(test_enque_and_deque, 50);
     RUN_TEST(test_enque_and_deque_from_head_and_tail, 88);
+    RUN_TEST(test_try_insert_and_remove, 8);
     return(UnityEnd());
 }
